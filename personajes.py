@@ -22,3 +22,12 @@ class Personaje:
 
   def estaVivo(self):
     return self.salud > 0
+
+def presentacion():
+  print("Un cielo azúl radiante te acompaña el día de hoy, eres...")
+  input(print(""))
+  print("Un momento... ¿Quién eres?")
+  nombre = input(print("Introduce tu nombre: ")
+  print("¡Ah sí! "+nombre+", ¿cómo olvidarme de ti?")
+  input(print("Pues ahí ibas tú, "+nombre+", paseando por el bosque, cuando de repente aparece ante ti un orco...")
+  input(print("¡Y empieza el combate!"))
