@@ -1,8 +1,10 @@
 import funciones
+import personajes
 from personajes import Personaje
 
+nombre = personajes.presentacion()
 
-jugador = Personaje("Duni", 100, 50, 70, 50, 20, 99)
+jugador = Personaje(nombre, 100, 50, 70, 50, 20, 99)
 enemigo = Personaje("Orco", 80, 0, 30, 0, 10, 10)
 
 print ("¡"+jugador.nombre+" se ha encontrado un enemigo!")
