@@ -42,4 +42,4 @@ def lucha(jugador, enemigo):
 
   print(jugador.nombre+": "+str(jugador.salud)+"PS")
   print(enemigo.nombre+": "+str(enemigo.salud)+"PS")
-  input(print(" "))
+  input(" ")
