@@ -8,14 +8,14 @@ jugador = Personaje(nombre, 100, 50, 70, 50, 20, 99)
 enemigo = Personaje("Orco", 80, 0, 30, 0, 10, 10)
 
 print ("¡"+jugador.nombre+" se ha encontrado un enemigo!")
-input(print(" "))
+input(" ")
 print ("¡Resulta que es un "+enemigo.nombre+"!")
-input(print(" "))
+input(" ")
 print("¡Comienza el combate!")
 print(jugador.nombre+" VS "+enemigo.nombre)
 print(jugador.nombre+": "+str(jugador.salud)+"PS")
 print(enemigo.nombre+": "+str(enemigo.salud)+"PS")
-input(print(" "))
+input(" ")
 
 while jugador.salud > 0 and enemigo.salud > 0:
   opcion = funciones.menu()
