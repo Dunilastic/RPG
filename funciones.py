@@ -8,7 +8,7 @@ def menu():
   return opcion
 
 def combate(self, enemigo):
-  if enemigo.estaVivo:
+  if enemigo.estaVivo():
     daño = self.ataque(enemigo)
     print("Le has hecho "+str(daño)+" puntos de daño a "+enemigo.nombre)
 
@@ -27,7 +27,7 @@ def huir(jugador):
 def lucha(jugador, enemigo):
   print("")
   print("¡"+jugador.nombre+" ataca!")
-  if enemigo.estaVivo:
+  if enemigo.estaVivo():
     daño = jugador.ataque(enemigo)
     print("Le has hecho "+str(daño)+" puntos de daño a "+enemigo.nombre)
 
@@ -36,7 +36,7 @@ def lucha(jugador, enemigo):
 
   print("")
   print("¡"+enemigo.nombre+" ataca!")
-  if enemigo.estaVivo:
+  if enemigo.estaVivo():
     daño = enemigo.ataque(jugador)
     print("Le has hecho "+str(daño)+" puntos de daño a "+enemigo.nombre)
 
