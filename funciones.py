@@ -33,10 +33,10 @@ def lucha(jugador, enemigo):
 
   print(jugador.nombre+": "+str(jugador.salud)+"PS")
   print(enemigo.nombre+": "+str(enemigo.salud)+"PS")
-
-  print("")
-  print("¡"+enemigo.nombre+" ataca!")
+  
   if enemigo.estaVivo():
+    print("")
+    print("¡"+enemigo.nombre+" ataca!")
     daño = enemigo.ataque(jugador)
     print("Le has hecho "+str(daño)+" puntos de daño a "+enemigo.nombre)
 
