@@ -29,4 +29,4 @@ def presentacion():
   nombre = input("Introduce tu nombre: ")
   print("¡Ah sí! "+nombre+", ¿cómo olvidarme de ti?")
   input("Pues ahí ibas tú, "+nombre+", paseando por el bosque, cuando de repente aparece ante ti un orco...")
-  input("¡Y empieza el combate!"))
+  input("¡Y empieza el combate!")
